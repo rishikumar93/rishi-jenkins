@@ -15,10 +15,10 @@ public class SpringJenkinsApplication {
 
 public static	Logger l=LoggerFactory.getLogger(SpringJenkinsApplication.class);
 
-//	@GetMapping("/ping")
-//	public String message() {
-//		return "Wao!! Application Deployed successfully in SAP Cloud..";
-//	}
+	@GetMapping("/ping")
+	public String message() {
+		return "Wao!! Application Deployed successfully in SAP Cloud..";
+	}
 	
 	@PostConstruct
 	public void init() {
