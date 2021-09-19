@@ -23,6 +23,7 @@ public static	Logger l=LoggerFactory.getLogger(SpringJenkinsApplication.class);
 	@PostConstruct
 	public void init() {
 		l.info("Application started");
+		l.info("Inside Init method, checking auto build process");
 	}
 	
 
